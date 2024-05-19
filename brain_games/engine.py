@@ -15,8 +15,9 @@ def run_game(game_rule, game_parts):
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {username}!")
+            print(f"'{answer}' is wrong answer ;( "
+                  f"Correct answer was '{correct_answer}'."
+                  f"\nLet's try again, {username}!")
             return
         print('Correct!')
 
