@@ -13,11 +13,11 @@
 
 The games can be launched from the command line with the following commands:
 
-    $ brain-even - the user needs to answer whether the number is even or not
-    $ brain-gcd - the user should calculate the greatest common divisor of two numbers
-    $ brain-calc - the user needs to calculate the result of an arithmetic expression
-    $ brain-progression - the user should guess the missing number in an arithmetic progression
-    $ brain-prime - the user needs to answer whether the number is prime or not
+    $ brain-even # the user needs to answer whether the number is even or not
+    $ brain-gcd # the user should calculate the greatest common divisor of two numbers
+    $ brain-calc # the user needs to calculate the result of an arithmetic expression
+    $ brain-progression # the user should guess the missing number in an arithmetic progression
+    $ brain-prime # the user needs to answer whether the number is prime or not
 
 To exit the virtual environment session, type ```deactivate```. This command will be available after the environment has been activated (previously performed).
 
