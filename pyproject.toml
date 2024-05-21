@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.1.1"
 description = "Console game for practicing env setup skills and using the open-closed principle"
 authors = ["nurgeld <nurgeldy@gmail.com>"]
 repository = "https://github.com/nurgeld/python-project-49"
