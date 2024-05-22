@@ -25,7 +25,3 @@ def generate_calc_game():
     answer = calculate(operand1, operand2, operator)
 
     return (question, str(answer))
-
-
-if __name__ == '__main__':
-    generate_calc_game()

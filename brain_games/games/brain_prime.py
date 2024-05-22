@@ -19,7 +19,3 @@ def generate_prime_game():
     answer = 'yes' if is_prime(question) else 'no'
 
     return (question, answer)
-
-
-if __name__ == '__main__':
-    generate_prime_game()

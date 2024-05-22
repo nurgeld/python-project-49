@@ -1,5 +1,4 @@
 import random
-from brain_games.engine import run_game
 
 
 GAME_RULE = 'What number is missing in the progression?'
@@ -34,7 +33,3 @@ def generate_progression_game():
     answer = take_element_of_progression(first, diff, index_of_masked_element)
 
     return (question, str(answer))
-
-
-if __name__ == '__main__':
-    run_game(GAME_RULE, generate_progression_game)

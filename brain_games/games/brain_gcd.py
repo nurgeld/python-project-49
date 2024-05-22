@@ -18,7 +18,3 @@ def generate_gcd_game():
     answer = get_gcd(number1, number2)
 
     return (question, str(answer))
-
-
-if __name__ == '__main__':
-    generate_gcd_game()
