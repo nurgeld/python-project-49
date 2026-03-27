@@ -16,6 +16,7 @@ prompt = "^0.4.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -28,3 +29,4 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+brain-balance = "brain_games.scripts.brain_balance:main"

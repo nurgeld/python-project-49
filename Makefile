@@ -19,6 +19,9 @@ brain-progression:
 brain-prime:
 	poetry run brain-prime
 
+brain-balance:
+	poetry run brain-balance
+
 build:
 	poetry build
 
@@ -28,5 +31,8 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
-make lint:
+lint:
 	poetry run flake8 brain_games
+
+test:
+	poetry run pytest tests/

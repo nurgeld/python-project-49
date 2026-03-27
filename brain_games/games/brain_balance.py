@@ -1,5 +1,6 @@
 import random
 
+
 GAME_RULE = 'Balance the given number'
 
 
