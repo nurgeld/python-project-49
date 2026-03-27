@@ -16,11 +16,11 @@ def calculate(operand1, operand2, operator):
             return None
 
 
-def generate_calc_game():
+def generate_game():
     operators = ['+', '-', '*']
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
-    operator = operators[random.randint(0, len(operators) - 1)]
+    operator = random.choice(operators)
     question = f'{operand1} {operator} {operand2}'
     answer = calculate(operand1, operand2, operator)
 

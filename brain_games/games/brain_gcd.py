@@ -11,7 +11,7 @@ def get_gcd(number1, number2):
     return get_gcd(number2, number1 % number2)
 
 
-def generate_gcd_game():
+def generate_game():
     number1 = random.randint(1, 200)
     number2 = random.randint(1, 200)
     question = f'{number1} {number2}'

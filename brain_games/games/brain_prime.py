@@ -14,7 +14,7 @@ def is_prime(number, curr_number=2):
     return is_prime(number, curr_number + 1)
 
 
-def generate_prime_game():
+def generate_game():
     question = random.randint(1, 200)
     answer = 'yes' if is_prime(question) else 'no'
 

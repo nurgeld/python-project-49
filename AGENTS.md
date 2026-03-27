@@ -29,6 +29,27 @@ poetry run flake8 brain_games
 make lint
 ```
 
+### Testing
+```bash
+# Run all tests
+poetry run pytest tests/
+
+# Or use make
+make test
+
+# Run a specific test file
+poetry run pytest tests/test_games.py
+
+# Run a specific test class
+poetry run pytest tests/test_games.py::TestBrainEven
+
+# Run a specific test method
+poetry run pytest tests/test_games.py::TestBrainEven::test_is_even_true
+
+# Run tests with verbose output
+poetry run pytest tests/ -v
+```
+
 ### Running Games
 ```bash
 # Using Poetry
@@ -46,6 +67,7 @@ make brain-calc
 make brain-gcd
 make brain-prime
 make brain-progression
+make brain-balance
 ```
 
 ### Publishing
@@ -129,14 +151,22 @@ brain_games/
 │   ├── brain_calc.py
 │   ├── brain_gcd.py
 │   ├── brain_prime.py
-│   └── brain_progression.py
+│   ├── brain_progression.py
+│   └── brain_balance.py
 └── scripts/            # Entry point scripts
     ├── brain_even.py
     ├── brain_calc.py
     ├── brain_gcd.py
     ├── brain_prime.py
-    └── brain_progression.py
+    ├── brain_progression.py
+    └── brain_balance.py
 ```
+
+### Configuration Files
+- **setup.cfg**: Contains flake8 and isort configuration
+  - Max line length: 80
+  - Max complexity: 6
+  - isort: multi-line output mode 3 with trailing comma, line length 79
 
 ### Things to Avoid
 - Do not add comments unless necessary (code should be self-documenting)

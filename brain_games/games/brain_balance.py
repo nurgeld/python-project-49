@@ -17,7 +17,7 @@ def balance_number(number):
     return ''.join(str(d) for d in balanced_digits)
 
 
-def generate_balance_game():
+def generate_game():
     number = random.randint(1, 1000000)
     question = str(number)
     answer = balance_number(number)
