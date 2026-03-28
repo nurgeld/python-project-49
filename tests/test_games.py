@@ -1,5 +1,3 @@
-import pytest
-
 from brain_games.games import brain_even
 from brain_games.games import brain_calc
 from brain_games.games import brain_gcd
