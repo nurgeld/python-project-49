@@ -18,6 +18,7 @@ The games can be launched from the command line with the following commands:
     $ brain-calc # the user needs to calculate the result of an arithmetic expression
     $ brain-progression # the user should guess the missing number in an arithmetic progression
     $ brain-prime # the user needs to answer whether the number is prime or not
+    $ brain-balance # the user needs to balance the given number
 
 To exit the virtual environment session, type ```deactivate```. This command will be available after the environment has been activated (previously performed).
 
