@@ -9,12 +9,8 @@ def generate_progression(first, diff, length):
 
 
 def build_question(progression, hidden_index):
-    parts = []
-    for i, num in enumerate(progression):
-        if i == hidden_index:
-            parts.append('..')
-        else:
-            parts.append(str(num))
+    parts = ['..' if i == hidden_index else str(num)
+             for i, num in enumerate(progression)]
     return ' '.join(parts)
 
 

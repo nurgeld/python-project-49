@@ -122,11 +122,11 @@ Each game follows this pattern:
 1. **Game Logic Module** (`brain_games/games/brain_*.py`):
    - Define `GAME_RULE` constant (description string)
    - Implement helper functions (e.g., `is_even()`, `get_gcd()`)
-   - Implement `generate_*_game()` function that returns `(question, answer)` tuple
+   - Implement `generate_game()` function that returns `(question, answer)` tuple
 
 2. **Script Module** (`brain_games/scripts/brain_*.py`):
    - Entry point with `main()` function
-   - Calls `run_game(GAME_RULE, generate_*_game)`
+   - Calls `run_game(GAME_RULE, generate_game)`
    - Uses `if __name__ == '__main__': main()` pattern
 
 3. **Engine** (`brain_games/engine.py`):
